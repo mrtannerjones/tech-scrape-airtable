@@ -57,7 +57,7 @@ function addAllToAirtable(mentorDataArray, callback){
 
 function main(){
 	waterfall([
-		getMentorUrls2,
+		getMentorUrls,
 		getAllMentorData,
 		addAllToAirtable
 	], (err, res) =>{
